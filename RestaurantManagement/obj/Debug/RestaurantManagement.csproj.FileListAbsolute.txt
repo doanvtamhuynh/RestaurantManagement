@@ -1,0 +1,11 @@
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.csproj.AssemblyReference.cache
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.frmLogin.resources
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.Properties.Resources.resources
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.csproj.GenerateResource.cache
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.csproj.CoreCompileInputs.cache
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\bin\Debug\RestaurantManagement.exe.config
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\bin\Debug\RestaurantManagement.exe
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\bin\Debug\RestaurantManagement.pdb
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.exe
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.frmTableManager.resources
