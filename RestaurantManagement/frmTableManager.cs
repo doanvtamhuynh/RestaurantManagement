@@ -16,5 +16,36 @@ namespace RestaurantManagement
         {
             InitializeComponent();
         }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            var result = MessageBox.Show("Bạn có chắc chắn muốn thoát không?",
+                                           "Xác nhận thoát",
+                                           MessageBoxButtons.YesNo,
+                                           MessageBoxIcon.Question);
+
+            if (result == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
+
+            base.OnFormClosing(e);
+        }
+
+        private void listViewBill_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void thôngTinCáNhânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAccountProfile frmAccountProfile = new frmAccountProfile();
+            frmAccountProfile.ShowDialog();
+        }
     }
 }

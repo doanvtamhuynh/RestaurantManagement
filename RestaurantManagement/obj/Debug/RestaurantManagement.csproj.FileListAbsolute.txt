@@ -9,3 +9,4 @@ D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\bin\De
 D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.exe
 D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.pdb
 D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.frmTableManager.resources
+D:\RestaurantManagement\Product\RestaurantManagement\RestaurantManagement\obj\Debug\RestaurantManagement.frmAccountProfile.resources

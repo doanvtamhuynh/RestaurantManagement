@@ -117,10 +117,38 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>25</value>
-  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnViewPassword.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAYAAACuLnWgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAR1JREFUSEvtVEGORUAUFDYW9i7gDiw4ARuuYOUaLF2IvTv8NRsrCyEREWpSnfQP
+        M/MnTMZfTSWVdN579ar7Na3gDfg3uYTTJsuy4PF4oCxLQa4ZO4MfTaZpQlVVSJIEpmlC13VYliXINWPM
+        sYa1r/DSpG1bOI4jmimKAs/zUNc1+r4X5Jox5ljDWmq+wxeTdV2R5zkMwxANpEHTNMiyDLZtIwgCDMOA
+        ruueRiQ11LLHHgeTcRwRhuFTRHKX3DUNZMz3fWzbJjTMydNKsgd7SRxMoiiCqqoHAefP8fAEMua6LuZ5
+        FhrmWLPXsAd7SfzKRNM0xHGMoiium5wdlyRjl8dFnLl4Mk1TEbt88Xvc+gnvcfvP+Bm3PSt/hTeYAB+E
+        h7XQB7tpLQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnViewConfirmPass.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAYAAACuLnWgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAR1JREFUSEvtVEGORUAUFDYW9i7gDiw4ARuuYOUaLF2IvTv8NRsrCyEREWpSnfQP
+        M/MnTMZfTSWVdN579ar7Na3gDfg3uYTTJsuy4PF4oCxLQa4ZO4MfTaZpQlVVSJIEpmlC13VYliXINWPM
+        sYa1r/DSpG1bOI4jmimKAs/zUNc1+r4X5Jox5ljDWmq+wxeTdV2R5zkMwxANpEHTNMiyDLZtIwgCDMOA
+        ruueRiQ11LLHHgeTcRwRhuFTRHKX3DUNZMz3fWzbJjTMydNKsgd7SRxMoiiCqqoHAefP8fAEMua6LuZ5
+        FhrmWLPXsAd7SfzKRNM0xHGMoiium5wdlyRjl8dFnLl4Mk1TEbt88Xvc+gnvcfvP+Bm3PSt/hTeYAB+E
+        h7XQB7tpLQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnViewNewPass.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABkAAAASCAYAAACuLnWgAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
+        cQAAEnEB89x6jgAAAR1JREFUSEvtVEGORUAUFDYW9i7gDiw4ARuuYOUaLF2IvTv8NRsrCyEREWpSnfQP
+        M/MnTMZfTSWVdN579ar7Na3gDfg3uYTTJsuy4PF4oCxLQa4ZO4MfTaZpQlVVSJIEpmlC13VYliXINWPM
+        sYa1r/DSpG1bOI4jmimKAs/zUNc1+r4X5Jox5ljDWmq+wxeTdV2R5zkMwxANpEHTNMiyDLZtIwgCDMOA
+        ruueRiQ11LLHHgeTcRwRhuFTRHKX3DUNZMz3fWzbJjTMydNKsgd7SRxMoiiCqqoHAefP8fAEMua6LuZ5
+        FhrmWLPXsAd7SfzKRNM0xHGMoiium5wdlyRjl8dFnLl4Mk1TEbt88Xvc+gnvcfvP+Bm3PSt/hTeYAB+E
+        h7XQB7tpLQAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>
