@@ -40,23 +40,23 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.btnViewNewPass = new System.Windows.Forms.Button();
-            this.txtNewPass = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnViewConfirmPass = new System.Windows.Forms.Button();
             this.txtConfirmPass = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.btnUpdate = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnViewNewPass = new System.Windows.Forms.Button();
+            this.txtNewPass = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -171,45 +171,28 @@
             this.panel4.Size = new System.Drawing.Size(754, 445);
             this.panel4.TabIndex = 4;
             // 
-            // panel5
+            // panel7
             // 
-            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel5.Controls.Add(this.btnViewNewPass);
-            this.panel5.Controls.Add(this.txtNewPass);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(17, 227);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(717, 50);
-            this.panel5.TabIndex = 4;
+            this.panel7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel7.Controls.Add(this.btnUpdate);
+            this.panel7.Location = new System.Drawing.Point(544, 361);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(190, 65);
+            this.panel7.TabIndex = 6;
             // 
-            // btnViewNewPass
+            // btnUpdate
             // 
-            this.btnViewNewPass.Image = ((System.Drawing.Image)(resources.GetObject("btnViewNewPass.Image")));
-            this.btnViewNewPass.Location = new System.Drawing.Point(632, 5);
-            this.btnViewNewPass.Name = "btnViewNewPass";
-            this.btnViewNewPass.Size = new System.Drawing.Size(63, 35);
-            this.btnViewNewPass.TabIndex = 2;
-            this.btnViewNewPass.UseVisualStyleBackColor = true;
-            this.btnViewNewPass.Click += new System.EventHandler(this.btnViewNewPass_Click);
-            // 
-            // txtNewPass
-            // 
-            this.txtNewPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtNewPass.Location = new System.Drawing.Point(287, 12);
-            this.txtNewPass.Name = "txtNewPass";
-            this.txtNewPass.Size = new System.Drawing.Size(339, 22);
-            this.txtNewPass.TabIndex = 1;
-            this.txtNewPass.UseSystemPasswordChar = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 8);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(184, 27);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "New Password:";
+            this.btnUpdate.BackColor = System.Drawing.Color.Lime;
+            this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnUpdate.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnUpdate.Location = new System.Drawing.Point(13, 0);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(155, 59);
+            this.btnUpdate.TabIndex = 0;
+            this.btnUpdate.Text = "Cập nhật thông tin";
+            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // panel6
             // 
@@ -251,25 +234,45 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Confirm Password:";
             // 
-            // panel7
+            // panel5
             // 
-            this.panel7.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.panel7.Controls.Add(this.btnUpdate);
-            this.panel7.Location = new System.Drawing.Point(544, 361);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(190, 65);
-            this.panel7.TabIndex = 6;
+            this.panel5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel5.Controls.Add(this.btnViewNewPass);
+            this.panel5.Controls.Add(this.txtNewPass);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Location = new System.Drawing.Point(17, 227);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(717, 50);
+            this.panel5.TabIndex = 4;
             // 
-            // btnUpdate
+            // btnViewNewPass
             // 
-            this.btnUpdate.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnUpdate.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(13, 0);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(155, 59);
-            this.btnUpdate.TabIndex = 0;
-            this.btnUpdate.Text = "Cập nhật thông tin";
-            this.btnUpdate.UseVisualStyleBackColor = false;
+            this.btnViewNewPass.Image = ((System.Drawing.Image)(resources.GetObject("btnViewNewPass.Image")));
+            this.btnViewNewPass.Location = new System.Drawing.Point(632, 5);
+            this.btnViewNewPass.Name = "btnViewNewPass";
+            this.btnViewNewPass.Size = new System.Drawing.Size(63, 35);
+            this.btnViewNewPass.TabIndex = 2;
+            this.btnViewNewPass.UseVisualStyleBackColor = true;
+            this.btnViewNewPass.Click += new System.EventHandler(this.btnViewNewPass_Click);
+            // 
+            // txtNewPass
+            // 
+            this.txtNewPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtNewPass.Location = new System.Drawing.Point(287, 12);
+            this.txtNewPass.Name = "txtNewPass";
+            this.txtNewPass.Size = new System.Drawing.Size(339, 22);
+            this.txtNewPass.TabIndex = 1;
+            this.txtNewPass.UseSystemPasswordChar = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(24, 8);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(184, 27);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "New Password:";
             // 
             // frmAccountProfile
             // 
@@ -288,11 +291,11 @@
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
+            this.panel7.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
-            this.panel7.ResumeLayout(false);
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
 
         }

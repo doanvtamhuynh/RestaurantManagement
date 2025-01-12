@@ -65,14 +65,14 @@
             this.adminToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1325, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1325, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // trangChủToolStripMenuItem
             // 
             this.trangChủToolStripMenuItem.Name = "trangChủToolStripMenuItem";
-            this.trangChủToolStripMenuItem.Size = new System.Drawing.Size(87, 26);
+            this.trangChủToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.trangChủToolStripMenuItem.Text = "Trang chủ";
             // 
             // thôngTinTàiKhoảnToolStripMenuItem
@@ -87,7 +87,7 @@
             // thôngTinCáNhânToolStripMenuItem
             // 
             this.thôngTinCáNhânToolStripMenuItem.Name = "thôngTinCáNhânToolStripMenuItem";
-            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thôngTinCáNhânToolStripMenuItem.Size = new System.Drawing.Size(210, 26);
             this.thôngTinCáNhânToolStripMenuItem.Text = "Thông tin cá nhân";
             this.thôngTinCáNhânToolStripMenuItem.Click += new System.EventHandler(this.thôngTinCáNhânToolStripMenuItem_Click);
             // 
@@ -101,7 +101,7 @@
             // adminToolStripMenuItem
             // 
             this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
-            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 26);
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(67, 24);
             this.adminToolStripMenuItem.Text = "Admin";
             // 
             // panel2
@@ -142,6 +142,7 @@
             // btnAddFood
             // 
             this.btnAddFood.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAddFood.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAddFood.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddFood.Location = new System.Drawing.Point(267, 7);
             this.btnAddFood.Name = "btnAddFood";
@@ -233,6 +234,7 @@
             // btnCheckOut
             // 
             this.btnCheckOut.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCheckOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCheckOut.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCheckOut.Location = new System.Drawing.Point(13, 178);
             this.btnCheckOut.Name = "btnCheckOut";
@@ -252,6 +254,7 @@
             // btnSwitchTable
             // 
             this.btnSwitchTable.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnSwitchTable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSwitchTable.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSwitchTable.Location = new System.Drawing.Point(13, 21);
             this.btnSwitchTable.Name = "btnSwitchTable";
@@ -264,7 +267,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1325, 810);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.flowLayoutPanel1);
