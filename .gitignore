@@ -1,4 +1,6 @@
 .vs/
 */.vs/
+[Bb]in
+[Oo]bj
 [Dd]ebug/
-[Rr]eleases
+[Rr]elease
